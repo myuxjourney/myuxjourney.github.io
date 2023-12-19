@@ -1,0 +1,6 @@
+*.DS_Store
+_site
+*.swp
+.rvmrc
+.sass-cache/
+.jekyll-cache/
