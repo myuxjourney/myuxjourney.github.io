@@ -10,7 +10,7 @@ title: My UX Journey
 email: your-email@domain.com
 description: > # this means to ignore newlines until "baseurl:"
   Welcome to my official UX Apprentice Journey! It will always be a work in progress but the benfit will be seeing the things I have learned along the way. This means that each blog post will be something related to my design journey to becoming a full time UX Designer!
-baseurl: "https://myuxjourney.github.io/blog" # the subpath of your site, e.g. /blog
+baseurl: "https://myuxjourney.github.io/" # the subpath of your site, e.g. /blog
 url: "http://yourdomain.com" # the base hostname & protocol for your site
 twitter_username: jekyllrb
 github_username:  myuxjourney
