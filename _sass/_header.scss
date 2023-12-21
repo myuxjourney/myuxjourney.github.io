@@ -1,11 +1,17 @@
 header.site-header {
-  background: #F5F5DC
-;
-  color: rgb(0, 0, 0);
+  background: #ffffff;
+  color: rgb(255, 255, 255);
   .content-wrap {
-    justify-content: space-between;
+    display: flex;
+    text-align: center;
+    font-size:large;
+
     a {
       color: rgb(0, 0, 0);
     }
   }
 }
+
+  
+
+

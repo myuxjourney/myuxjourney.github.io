@@ -1,0 +1,23 @@
+<div>
+    {% for post in site.posts %}
+    <article>
+      <h2>
+        <a href="{{ post.url }}" >
+          {{ post.title }}
+        </a>
+      </h2>
+      <time datetime="{{ post.date | date: "%Y-%m-%d" }}">{{ post.date | date_to_long_string }}</time>
+      {{ post.content }}
+    </article>
+  {% endfor %}
+  </div>
+
+
+
+  <header.site-header>
+    <img src="/images/uxjourneylogo.png" alt="UX Journey Logo" style="max-width: 150px; max-height: 34vw; padding-left: 20px; padding-top: 1%;">
+    <nav class="content-wrap">
+        <a href="https://myuxjourney.github.io/">My UX Journey</a>
+        <a href="https//myuxjourney.github.io/about">About</a>
+      </nav>
+  </header>
