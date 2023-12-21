@@ -9,9 +9,7 @@
 title: My UX Journey
 email: your-email@domain.com
 description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  Starting my UX Apprenticeship and documenting my progress on this blog motivates me. It will provide an insight into my education and development as a UX designer. I'll record difficulties and discoveries, encompassing anything from interface design to user research. Join me on my journey as I develop into an effective UX Designer within the ever-evolving field of digital design.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://yourdomain.com" # the base hostname & protocol for your site
 twitter_username: jekyllrb
