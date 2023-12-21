@@ -1,8 +1,10 @@
 header.site-header {
-  background: #F5F5DC;
-  color: rgb(27, 27, 27);
+  background: #F5F5DC
+;
+  color: rgb(0, 0, 0);
   .content-wrap {
-    display: flex;
+    grid-column-start: auto;
+    flex-direction: column;
     justify-content: space-between;
     a {
       color: rgb(0, 0, 0);

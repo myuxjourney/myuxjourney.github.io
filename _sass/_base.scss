@@ -17,3 +17,10 @@ body {
   min-height: 800px;
   max-width: 1200px;
 }
+
+.container {
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
