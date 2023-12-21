@@ -19,8 +19,11 @@ body {
 }
 
 .container {
-  height: 300px;
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
+  padding: 2em 0;
+ 
+}
+
+.navspacing {
+  display:flex;
+  justify-content: space-around;
 }
