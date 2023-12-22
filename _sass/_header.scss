@@ -2,10 +2,9 @@ header.site-header {
   background: #ffffff;
   color: rgb(255, 255, 255);
   .content-wrap {
-    display: flex;
-    text-align: center;
+    text-align: right;
     font-size:large;
-
+    flex: auto;
     a {
       color: rgb(0, 0, 0);
     }
