@@ -1,16 +1,15 @@
 header.site-header {
   background: #ffffff;
-  color: rgb(255, 255, 255);
+  color: rgb(40, 40, 40);
   .content-wrap {
-    text-align: right;
-    font-size:large;
-    flex: auto;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    font-family: 'Raleway';
+    font-size: x-large;
     a {
-      color: rgb(0, 0, 0);
+      color: rgb(63, 63, 63);
     }
   }
 }
-
-  
-
 

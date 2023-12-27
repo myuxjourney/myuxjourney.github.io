@@ -1,38 +1,43 @@
-* {
-width: 100%;
-}
-
-// this could be improved 
 body {
-  
-}
-
-
-.example {
-  text-align:center;
-  background: #ffffff;
-  min-height: 200px;
-  max-width: 1200px;
+  background-color: #f3f3f3;
+  padding: 0;
+  margin: 0;
 }
 
 section{
-  height: 100vh;
+  @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap');
+  font-family: 'Raleway', sans-serif;
+  text-align: center;
 }
 
 .one {
   background-color: rgb(36,164,138);
+  padding: 10%;
+  text-align: center;
+  font-size: calc(5px + 2vw);
+  font-weight: 400;
 }
 
 .two{
   background-color: rgb(43, 91, 212);
+  padding:  10%;
 }
 
 .three{
   background-color: #ff53d1;
+  padding:  10%;
 }
 
 .fourth{
   background-color: #ffbced;
+  padding: 10%;
 }
 
-// scss section 1
+.navigation{
+display: flex;
+padding: 25px;
+font-size: large;
+text-align: center;
+
+
+}
