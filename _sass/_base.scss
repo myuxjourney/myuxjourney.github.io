@@ -13,7 +13,7 @@ section{
 .one {
   background-color: rgb(33, 33, 33);
   color: #f3f3f3;
-  padding: 5%;
+  padding: 10%;
   text-align: center;
   font-size: calc(5px + 2vw);
   font-weight: 400;
@@ -45,19 +45,18 @@ section{
 
 }
 
-.navigation{
+.nagitigation{
   display: grid;
-  font-size: medium;
+  grid: 1fr;
+  font-size: large;
   font-family: 'Raleway';
-  font-weight: 500;
-  grid-template-columns: 1fr;
-  padding:  5px;
-  text-align: right;
+
 }
 
 
 
-.responsive {
+.responsive{ 
   width: 100%;
+  max-width:500px;
   height: auto;
 }
