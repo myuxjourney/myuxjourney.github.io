@@ -1,6 +1,7 @@
 ---
 layout: page
 title: About
+permalink: /about/
 ---
 
 Some Markdown content describing your site.
@@ -13,3 +14,4 @@ It is your opportunity to let us know all the details "about" your project:
 - focus and topic area
 - people involved
 - code and projects used
+
