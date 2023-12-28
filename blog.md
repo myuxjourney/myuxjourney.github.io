@@ -4,8 +4,13 @@ title: Blog
 permalink: /blog/
 ---
 
-Some Markdown content describing your site.
-
-## Blog
-
 The is where I am posting my blogs.
+
+<ul>    
+  {% for post in site.posts %}
+    <li>
+      <a href="{{ post.url }}">{{ post.title }}</a>
+    </li>
+  {% endfor %}
+
+</ul>
