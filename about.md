@@ -1,17 +1,17 @@
 ---
 layout: page
-title: About
 permalink: /about/
 ---
 
-Some Markdown content describing your site.
 
-## About About Pages
 
-The About page is a common convention found on websites.
-It is your opportunity to let us know all the details "about" your project:
+![image](/images/myphoto.png)
+## About Me
+## As a budding UX Designer currently honing my skills through an apprenticeship, I find myself deeply immersed in the world of design. My journey began in the realm of graphic design, where I spent nearly five years mastering the art of visual communication.This experience cemented my belief that while good design can sell a product, great design has the power to inspire belief and evoke emotions. Beyond my professional pursuits, I am an avid sports enthusiast and have a unique passion for rug making, which allows me to explore my creativity in diverse ways. 
 
-- focus and topic area
-- people involved
-- code and projects used
+## At the heart of my work and hobbies lies a deep appreciation for thoughtful and impactful design, a principle that guides me both in my career and personal endeavors.
+
+<br>
+<br>
+<br>
 
