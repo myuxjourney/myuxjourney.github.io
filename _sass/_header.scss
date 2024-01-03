@@ -3,10 +3,11 @@ header.site-header {
   color: rgb(40, 40, 40);
   .content-wrap {
     display: flex;
-    justify-content: space-around;
-    padding: 10px;
     font-family: 'Raleway';
     font-size: x-large;
+    justify-content: space-around;
+    padding: 10px;
+   
     a {
       color: rgb(63, 63, 63);
     }
