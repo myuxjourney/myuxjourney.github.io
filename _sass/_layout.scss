@@ -5,15 +5,25 @@
 }
 
 
-ul {
 
-  list-style-type: none;
-}
 
 li{
-  text-align: center;
+
   list-style-type: none;
-  padding: 5px;
+  
 }
 
+
+a {
+  color: #3498db; /* Default link color */
+}
+
+a:hover {
+  color: #2980b9; /* Link color on hover */
+}
+
+/* Additional style for visited links */
+a:visited {
+  color: #f2f2f2; /* Visited link color */
+}
 
