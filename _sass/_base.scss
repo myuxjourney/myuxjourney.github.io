@@ -46,15 +46,7 @@ section{
 }
 
 .navigation {
-  display: grid;
-  font-size: large;
-  font-family: 'Raleway';
-  font-weight: 700;
-  grid-template-columns: 1fr;
-  line-height: 175%;
-  padding: 5px;
-  text-align: right;
-
+text-align: center;
 }
 
 .responsive { 
@@ -106,5 +98,13 @@ padding-top: 0px;
 
 .nav-anchor {
   color: black;
-
+  display: inline-grid;
+  font-size: large;
+  font-family: 'Raleway';
+  font-weight: 500;
+  grid-template-columns: auto;
+  margin: 5px;
+  padding: 20px;
+  
+  
 }
