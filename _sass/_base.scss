@@ -1,7 +1,7 @@
 body {
   background-color: rgb(33, 33, 33);
-  padding: 0;
-  margin: 0;
+  padding: 0%;
+  margin: 0%;
 }
 
 section{
@@ -19,7 +19,6 @@ section{
   color: #f3f3f3;
   font-size: calc(5px + 2vw);
   font-weight: 400;
-  // padding: 10%;
   text-align: center;
   width: 100%;
 }
@@ -51,8 +50,9 @@ section{
 }
 
 .navigation {
-text-align: center;
-justify-content: center;
+  text-align: center;
+  justify-content: center;
+
 }
 
 .responsive { 
@@ -103,20 +103,31 @@ h1{
 }
 
 .nav-anchor {
-  color: black;
   display: inline-grid;
-  font-size: large;
+  font-size: x-large;
   font-family: 'Raleway';
-  font-weight: 500;
+  font-weight: 600;
   grid-template-columns: auto;
   margin: 5px;
   padding: 20px;
+  text-decoration: none;
+  position: relative;
+  padding-bottom: 5px;
+  
 }
 
 .main-image-wrapper {
-  // margin: 10%;
+  max-width: 100%;
+  height: auto;
 }
 
 .main-image {
   position: static;
+  max-width: 100%;
+  height: auto;
+  
+}
+
+.nav-anchor:hover {
+  border-bottom: 2px solid rgb(40, 40, 40);
 }
