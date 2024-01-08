@@ -116,6 +116,10 @@ h1{
   
 }
 
+.nav-anchor:hover {
+  border-bottom: 3px solid rgb(40, 40, 40);
+}
+
 .main-image-wrapper {
   max-width: 100%;
   height: auto;
@@ -128,6 +132,3 @@ h1{
   
 }
 
-.nav-anchor:hover {
-  border-bottom: 2px solid rgb(40, 40, 40);
-}
