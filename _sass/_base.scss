@@ -103,6 +103,7 @@ h1{
 }
 
 .nav-anchor {
+  border-bottom: 3px solid transparent;
   display: inline-grid;
   font-size: x-large;
   font-family: 'Raleway';
@@ -110,14 +111,16 @@ h1{
   grid-template-columns: auto;
   margin: 5px;
   padding: 20px;
-  text-decoration: none;
   position: relative;
   padding-bottom: 5px;
+  text-decoration: none;
+  transition: border-color 0.3s ease;
+
   
 }
 
 .nav-anchor:hover {
-  border-bottom: 3px solid rgb(40, 40, 40);
+  border-color:  rgb(40, 40, 40);
 }
 
 .main-image-wrapper {
