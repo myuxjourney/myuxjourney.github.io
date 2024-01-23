@@ -6,7 +6,7 @@ permalink: /blog/
 
 The is where I am posting my blogs.
 
-<li> 
+<li class="blog-list"> 
   {% for post in site.posts %}
     <li>
       <a href="{{ post.url }}">{{ post.title }}</a>

@@ -1,18 +1,15 @@
 body {
   background-color: rgb(33, 33, 33);
-  
 }
 
-section{
-  @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap');
-  font-family: 'Raleway', sans-serif;
+section {
+  @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap");
+  font-family: "Raleway", sans-serif;
   text-align: center;
-
 }
 
 .introduction-text {
   padding: 0 10% 10% 10%;
-
 }
 
 .one {
@@ -22,97 +19,86 @@ section{
   font-weight: 400;
   text-align: center;
   width: 100%;
-
 }
 
-.two{
+.two {
   background-color: #f3f3f3;
   color: rgb(33, 33, 33);
   font-size: calc(5px + 2vw);
   font-weight: 400;
   padding: 10%;
   text-align: center;
-
 }
 
-.three{
+.three {
   background-color: rgb(33, 33, 33);
   color: #f3f3f3;
   padding: 10%;
   font-size: calc(5px + 2vw);
   font-weight: 400;
   text-align: center;
-
 }
 
-.fourth{
+.fourth {
   background-color: #f3f3f3;
   color: rgb(33, 33, 33);
   padding: 10%;
   text-align: center;
-
 }
 
 .navigation {
   text-align: center;
   justify-content: center;
-
 }
 
-.responsive { 
+.responsive {
   width: 100%;
-  max-width:500px;
+  max-width: 500px;
   height: auto;
 }
 
 #hoverme:hover {
   content: url("/images/HoverHome.png");
-  
-
-} 
-
+}
 
 .post-content {
   background-color: rgb(33, 33, 33);
   color: #f3f3f3;
-  font-family: 'Raleway';
+  font-family: "Raleway";
   font-size: larger;
   padding-bottom: 35px;
   line-height: 1.5em;
+  align-items: center;
 }
 
 .post-title {
   background-color: rgb(33, 33, 33);
   color: #f3f3f3;
-
 }
-  
 
-h4{
-  text-align: left;
+h4 {
   line-height: 1.5em;
   margin-top: -8px;
   padding-top: 0px;
-  }
+  text-align: left;
+}
 
 .blog-content {
   background-color: rgb(33, 33, 33);
   color: #f3f3f3;
   font-size: calc(5px + 2vw);
   font-weight: 400;
+  margin: -5%;
   padding-bottom: 10%;
   padding-left: 15%;
   padding-right: 15%;
-  margin: -5%;
-
-
 }
 
 .nav-anchor {
   border-bottom: 3px solid transparent;
   display: inline-grid;
   font-size: x-large;
-  font-family: 'Raleway';
+  font-family: "Raleway";
   font-weight: 600;
   grid-template-columns: auto;
   margin: 5px;
@@ -121,27 +107,21 @@ h4{
   padding-bottom: 5px;
   text-decoration: none;
   transition: border-color 0.3s ease;
-
-  
 }
 
 .nav-anchor:hover {
-  border-color:  rgb(40, 40, 40);
+  border-color: rgb(40, 40, 40);
 }
 
 .main-image-wrapper {
+  background-color: transparent;
   max-width: 100%;
   height: auto;
-  background-color: transparent;
-  
 }
 
 .main-image {
+  background-color: transparent;
   position: static;
   max-width: 100%;
   height: auto;
-  background-color: transparent;
-  
 }
-
-

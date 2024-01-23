@@ -1,0 +1,132 @@
+---
+layout: post
+title: Flexin' in Style
+date: 2024-01-23 11:00:59 -0500
+categories: display grid inline flex position fixed sticky static relative
+---
+
+<div style="text-align: center">
+  <h2>Flexin' In style!</h2>
+</div>
+
+<div style="text-align: center">
+  <img src="/images/Blog Images/htmlflex.jpg" />
+</div>
+<p
+  style="
+    text-align: left;
+    margin-left: 20%;
+    margin-right: 20%;
+    font-family: Raleway;
+    font-size: large;
+    line-height: 1.5em;
+  "
+>
+  It's been nice to revisit the world of HTML and CSS. Though I couldn't quite
+  place the distinctions between relearning now and in college, I can definitely
+  sense the improvements. It is undoubtedly better, however I'm not sure if it
+  is due to the availability of several code editors or because it is easier to
+  find solutions to things on the internet.<br />
+  <br />
+
+  I always try to find good analogies for things that I know very little about.
+  It seems to always help my brain understand things easier. So like anything
+  else, I used this method with Display and Position properties. I relate the
+  Display property being alot like actors on a stage. Each actor has a
+  role/character that it provides.The Display property would determine how the
+  actors will present themselves on stage. <br /><br />
+</p>
+<p
+  style="
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    line-height: 1.5em;
+    margin-left: 20%;
+    margin-right: 20%;
+    flex-direction: column;
+    font: small;
+  "
+>
+
+  <ul class="blog-list">
+    <li>
+        <b>display: block;</b> Elements with this property value will start on a new
+        line and take up the full width available.
+    </li>
+    <li>
+        <b>display: inline;</b> Elements with this property value will not start on a
+        new line. They will only take up as much width as necessary, and multiple
+        inline elements can appear on the same line.
+    </li>
+    <li>
+        <b>display: inline-block;</b> Similar to inline, but allows setting width and
+        height on the element. 
+    </li>
+    <li>
+        <b>dispaly: none;</b> The element will be completely removed from the layout
+        and not displayed on the webpage.
+    </li>
+    <li>
+        <b>display: flex;</b> Enables a flex container, allowing you to use flexbox
+        properties to control the layout of child elements.
+    </li>
+    <li>
+        <b>display: grid;</b> Enables a grid container, allowing you to use grid
+        properties to create complex layouts.
+    </li>
+  </ul>
+</p> <br>
+<p
+  style="
+    text-align: left;
+    line-height: 1.5em;
+    margin-left: 20%;
+    margin-right: 20%;
+    font-family: Raleway;
+    font-size: large;
+    line-height: 1.5em;
+  "
+>
+  The second analogy is not mine but it is a good one for position. The position
+  property is like a bulletin board of notes. The position property is the
+  decision of where you are placing the notes. In this analogy, the bulletin board 
+  represents the HTML document, and each note represents an HTML element. 
+</p><br>
+
+<p
+  style="
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    margin-left: 20%;
+    margin-right: 20%;
+    flex-direction: column;
+  "
+>
+
+<ul class="blog-list">
+  <li>
+    <b>position: static;</b> Default value. Elements are positioned according to
+  the normal flow of the document.
+  </li>
+  <li>
+    <b>position: relative;</b> Positioned relative to its normal position. It can
+    be moved with the top, right, bottom, and left properties.
+  </li>
+  <li>
+    <b>position: absolute;</b> Positioned relative to its nearest positioned
+  ancestor (if any), otherwise, it's positioned relative to the initial
+  containing block.
+  </li>
+  <li>
+    <b>position: fixed;</b> Positioned relative to the viewport. It won't move
+  even if the page is scrolled.
+  </li>
+  <li>
+    <b>position: sticky;</b> Acts like relative position until an element scrolls
+  to a specified point, then it becomes fixed.
+  </li>
+</ul>
+
+</p>
