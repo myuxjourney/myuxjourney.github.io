@@ -1,13 +1,12 @@
 footer.site-footer {
   align-items: center;
-  background-color: rgb(33, 33, 33);
+  background-color: rgb(21, 21, 21);
   color: #f3f3f3;
   display: grid;
-  font-family: 'Raleway';
+  font-family: "Raleway";
   padding: 35px;
   text-align: center;
   justify-content: center;
-  
 }
 
 .media-links {
@@ -15,10 +14,8 @@ footer.site-footer {
   grid-template-columns: max-content max-content max-content;
   align-items: center;
   justify-content: center;
-
 }
 
 a {
-
   text-decoration: none;
 }
