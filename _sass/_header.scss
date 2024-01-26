@@ -1,17 +1,7 @@
 header.site-header {
+  width: auto;
+  display: grid;
+  grid-template-columns: auto;
   background: #ffffff;
-  color: rgb(40, 40, 40);
-  .content-wrap {
-    display: flex;
-    font-family: 'Raleway';
-    font-size: x-large;
-    justify-content: space-around;
-    padding: 10px;
-   
-    a {
-      color: rgb(63, 63, 63);
-    }
-  }
+  color: #ffffff;
 }
-
-
