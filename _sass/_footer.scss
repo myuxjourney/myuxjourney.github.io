@@ -4,15 +4,15 @@ footer.site-footer {
   color: #f3f3f3;
   display: grid;
   font-family: "Raleway";
+  justify-content: center;
   padding: 35px;
   text-align: center;
-  justify-content: center;
 }
 
 .media-links {
+  align-items: center;
   display: grid;
   grid-template-columns: max-content max-content max-content;
-  align-items: center;
   justify-content: center;
 }
 
