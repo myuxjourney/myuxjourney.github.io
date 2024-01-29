@@ -1,45 +1,47 @@
-.send-message-but {
-  align-items: center;
-  background-clip: padding-box;
-  background-color: #ffa700;
-  border: 1px solid transparent;
-  border-radius: 0.25rem;
-  box-shadow: rgba(255, 255, 255, 0.02) 0 1px 3px 0;
-  box-sizing: border-box;
-  color: #fff;
-  cursor: pointer;
-  display: inline-flex;
-  font-family: system-ui, -apple-system, system-ui, "Helvetica Neue", Helvetica,
-    Arial, sans-serif;
-  font-size: 18px;
-  font-weight: 600;
-  justify-content: center;
-  line-height: 1.25;
-  margin: 0;
-  min-height: 3rem;
-  padding: calc(0.875rem - 1px) calc(1.5rem - 1px);
-  position: relative;
-  text-decoration: none;
-  transition: all 250ms;
-  user-select: none;
-  -webkit-user-select: none;
-  touch-action: manipulation;
-  vertical-align: baseline;
-  width: auto;
+body {
+  background-color: rgb(21, 21, 21); /* Set background color to dark gray */
+  color: #fff; /* Set text color to white */
+  font-family: Arial, sans-serif; /* Choose a suitable font */
 }
 
-.send-message-but:hover,
-.send-message-but:focus {
-  background-color: #ffa700;
-  box-shadow: rgba(252, 252, 252, 0.1) 0 6px 12px;
+.fcf-body {
+  padding: 20px; /* Add padding for better spacing */
 }
 
-.send-message-but:hover {
-  transform: translateY(-1px);
+#fcf-form {
+  background-color: rgb(21, 21, 21); /* Set form background color */
+  padding: 20px; /* Add padding for better spacing */
+  border-radius: 10px; /* Add rounded corners to the form */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Add a subtle shadow */
 }
 
-.send-message-but:active {
-  background-color: #ffa700;
-  box-shadow: rgba(255, 255, 255, 0.06) 0 2px 4px;
-  transform: translateY(0);
+.fcf-h3 {
+  color: #fff; /* Set title color to white */
+}
+
+form {
+  display: flex;
+  flex-direction: column; /* Arrange form elements vertically */
+}
+
+input,
+textarea,
+button {
+  margin-bottom: 15px; /* Add margin between form elements */
+  padding: 10px; /* Add padding for better appearance */
+  border: 1px solid #fff; /* Set border color */
+  border-radius: 5px; /* Add rounded corners to form elements */
+  background-color: #444; /* Set form element background color */
+  color: #fff; /* Set form element text color to white */
+}
+
+button {
+  background-color: #ffa700; /* Set button background color */
+  color: #fff; /* Set button text color to white */
+  cursor: pointer; /* Add pointer cursor on hover */
+  transition: background-color 0.3s ease; /* Add transition for a smoother hover effect */
+}
+
+button:hover {
+  background-color: #ab6f00; /* Change button background color on hover */
 }
