@@ -1,6 +1,8 @@
 .main-content {
+  display: grid;
   width: 100vw;
   margin-top: 5%;
+  z-index: 1;
 }
 
 .content-wrap {
