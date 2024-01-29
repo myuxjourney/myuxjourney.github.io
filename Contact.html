@@ -3,57 +3,90 @@ layout: page
 permalink: /contact/
 ---
 
-
 <!DOCTYPE html>
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>contact form</title>
-</head>
+<html lang="en">
+  <head>
+    <link href="form.scss" rel="stylesheet" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Form</title>
+    <style>
+      body {
+        background-color: rgb(
+          21,
+          21,
+          21
+        ); /* Set background color to dark gray */
+        color: #fff; /* Set text color to white */
+        font-family: Arial, sans-serif; /* Choose a suitable font */
+      }
 
-<body>
+      .fcf-body {
+        padding: 20px; /* Add padding for better spacing */
+      }
 
-<link href="form.scss" rel="stylesheet">
+      #fcf-form {
+        background-color: rgb(21, 21, 21); /* Set form background color */
+        padding: 20px; /* Add padding for better spacing */
+        border-radius: 10px; /* Add rounded corners to the form */
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Add a subtle shadow */
+      }
 
-<div class="fcf-body">
+      .fcf-h3 {
+        color: #fff; /* Set title color to white */
+      }
 
-    <div id="fcf-form">
-    <h3 class="fcf-h3">Contact us</h3>
+      form {
+        display: flex;
+        flex-direction: column; /* Arrange form elements vertically */
+      }
 
-    <form id="fcf-form-id" class="fcf-form-class" method="post" action="contact-form-process.php">
-        
-        <div class="fcf-form-group">
-            <label for="Name" class="fcf-label">Name</label>
-            <div class="fcf-input-group">
-                <input type="text" id="Name" name="Name" class="fcf-form-control" required>
-            </div>
-        </div>
-        <br>
-        <div class="fcf-form-group">
-            <label for="Email" class="fcf-label">Email</label>
-            <div class="fcf-input-group">
-                <input type="email" id="Email" name="Email" class="fcf-form-control" required>
-            </div>
-        </div>
-        <br>
-        <div class="fcf-form-group">
-            <label for="Message" class="fcf-label">Your message</label>
-            <div class="fcf-input-group">
-                <textarea id="Message" name="Message" class="fcf-form-control" rows="6" maxlength="3000" required></textarea>
-            </div>
-        </div>
-        <br>
-        <div class="send-message-but">
-            <button type="submit" id="fcf-button" class="send-message-but">SEND</button>
-        </div>
+      input,
+      textarea,
+      button {
+        margin-bottom: 15px; /* Add margin between form elements */
+        padding: 10px; /* Add padding for better appearance */
+        border: 1px solid #fff; /* Set border color */
+        border-radius: 5px; /* Add rounded corners to form elements */
+        background-color: #444; /* Set form element background color */
+        color: #fff; /* Set form element text color to white */
+      }
 
-        
-    
+      button {
+        background-color: #ffa700; /* Set button background color */
+        color: #fff; /* Set button text color to white */
+        cursor: pointer; /* Add pointer cursor on hover */
+        transition: background-color 0.3s ease; /* Add transition for a smoother hover effect */
+      }
 
-    </form>
+      button:hover {
+        background-color: #ab6f00; /* Change button background color on hover */
+      }
+    </style>
+    <!-- Add any additional head elements here -->
+  </head>
+  <body>
+    <div class="fcf-body">
+      <div id="fcf-form">
+        <h3 class="fcf-h3">Contact Me</h3>
+
+        <form
+          action="https://formsubmit.co/joeingram1986@gmail.com"
+          method="POST"
+        >
+          <input type="text" name="name" placeholder="Your Name" required />
+          <input type="email" name="email" placeholder="Your Email" required />
+          <textarea
+            id="Message"
+            name="Message"
+            rows="6"
+            placeholder="Your Message"
+            maxlength="3000"
+            required
+          ></textarea>
+          <button type="submit">Send</button>
+        </form>
+      </div>
     </div>
-
-</div>
-
-</body>
+  </body>
 </html>
