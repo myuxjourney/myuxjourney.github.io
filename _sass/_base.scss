@@ -57,7 +57,7 @@ section {
   height: auto;
 }
 // image hover on homepage
-#hoverme:hover {
+.hoverme:hover {
   content: url("/images/HoverHome.png");
   box-shadow: none;
 }
@@ -142,6 +142,7 @@ img:hover {
   box-shadow: none;
 }
 
-.about-img {
+.about-img:hover {
   box-shadow: none;
+  content: url("/images/myphoto_orange.png");
 }
