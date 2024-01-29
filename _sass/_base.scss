@@ -142,7 +142,13 @@ img:hover {
   box-shadow: none;
 }
 
-.about-img:hover {
-  box-shadow: none;
-  content: url("/images/myphoto_orange.png");
+// Fix for image hover flicker - found solution at https://www.youtube.com/watch?v=c6CZuywLZao
+body:after {
+  content: url("/images/OutlineHome.png") url("/images/HoverHome.png")
+    url("/images/myphoto.png") url("/images/myphoto_orange.png");
+  height: 0;
+  overflow: hidden;
+  position: absolute;
+  width: 0;
+  z-index: -1;
 }
