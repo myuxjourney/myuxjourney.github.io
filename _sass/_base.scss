@@ -49,16 +49,28 @@ section {
 
 .navigation {
   display: grid;
-  width: 100vw;
+  max-width: 100vw;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
   text-align: center;
-  justify-content: center;
+  align-content: center;
+  padding: 20px;
 }
 
-.responsive {
-  width: 100%;
-  max-width: 500px;
-  height: auto;
+.nav-anchor {
+  width: 50%;
+  padding-bottom: 2px;
+  border-bottom: 3px solid transparent;
+  font-size: large;
+  font-family: "Raleway";
+  font-weight: 600;
+  transition: border-color 0.3s ease;
 }
+
+// nav anchor - underline that shows while hovering nav bar
+.nav-anchor:hover {
+  border-color: rgb(21, 21, 21);
+}
+
 // image hover on homepage
 .hoverme:hover {
   content: url("/images/HoverHome.png");
@@ -96,25 +108,6 @@ h4 {
   padding-bottom: 10%;
   padding-left: 15%;
   padding-right: 15%;
-}
-
-.nav-anchor {
-  border-bottom: 3px solid transparent;
-  display: inline-grid;
-  font-size: x-large;
-  font-family: "Raleway";
-  font-weight: 600;
-  grid-template-columns: auto;
-  margin: 5px;
-  padding: 20px;
-  position: relative;
-  padding-bottom: 5px;
-  text-decoration: none;
-  transition: border-color 0.3s ease;
-}
-// nav anchor - underline that shows while hovering nav bar
-.nav-anchor:hover {
-  border-color: rgb(21, 21, 21);
 }
 
 .main-image-wrapper {
@@ -158,4 +151,8 @@ body:after {
   position: absolute;
   width: 0;
   z-index: -1;
+}
+
+.h4-blog {
+  text-align: center;
 }
