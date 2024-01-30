@@ -48,28 +48,47 @@ section {
 }
 
 .navigation {
-  display: grid;
-  max-width: 100vw;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  text-align: center;
-  align-content: center;
-  padding: 20px;
+  display: flex;
+  font-family: "Raleway" sans-serif;
+  font-weight: 500;
+  font-size: large;
+  justify-content: center;
 }
 
 .nav-anchor {
-  width: 50%;
+  border-bottom: 2px solid transparent;
+  color: #000;
+  margin-right: 30px;
   padding-bottom: 2px;
-  border-bottom: 3px solid transparent;
-  font-size: large;
-  font-family: "Raleway";
-  font-weight: 600;
+  text-decoration: none;
   transition: border-color 0.3s ease;
 }
 
-// nav anchor - underline that shows while hovering nav bar
 .nav-anchor:hover {
   border-color: rgb(21, 21, 21);
 }
+
+// .navigation {
+//   display: grid;
+//   max-width: 100vw;
+//   grid-template-columns: 1fr 1fr 1fr 1fr;
+//   text-align: center;
+//   align-content: center;
+//   padding: 20px;
+// }
+
+// .nav-anchor {
+// width: 50%;
+// padding-bottom: 2px;
+// border-bottom: 3px solid transparent;
+// font-size: large;
+// font-family: "Raleway";
+// font-weight: 600;
+// transition: border-color 0.3s ease;
+
+// nav anchor - underline that shows while hovering nav bar
+//
+// }
 
 // image hover on homepage
 .hoverme:hover {
