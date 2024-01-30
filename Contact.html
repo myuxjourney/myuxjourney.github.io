@@ -31,7 +31,6 @@ permalink: /contact/
         border-radius: 10px; /* Add rounded corners to the form */
         box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Add a subtle shadow */
       }
-
       .fcf-h3 {
         color: #fff; /* Set title color to white */
       }
@@ -95,7 +94,31 @@ permalink: /contact/
             maxlength="3000"
             required
           ></textarea>
-          <button type="submit">Send</button>
+
+          <form>
+            <p style="text-align: left; text-indent: 2%;">Would you be interested in signing up for a weekly email that keeps you updated with my UX Journey?</p>
+          
+            <label style="text-align: left; text-indent: 2%">
+              <input type="radio" name="emailSubscription" value="yes">
+              Yes
+            </label>
+          
+            <label style="text-align: left; padding-bottom: 25px; text-indent: 2%">
+              <input type="radio" name="emailSubscription" value="no">
+              No
+            </label>
+
+          
+            <label style="text-align:left ; text-indent: 2%;" for="interest">How did you hear about me?</label>
+            <select style="text-align:left; margin-left: 2%; width: 15%; padding-top: 5px; padding-bottom: 5px;" id="interest" name="interest">
+              <option value="news">News</option>
+              <option value="website">Website</option>
+              <option value="radio">Radio</option>
+              <option value="podcast">Podcast</option>
+              <option value="magazine">Magazine</option>
+            </select>
+
+          <button style="align-self: center; width: 20%; padding-top:5px; margin-top: 40px;" type="submit">Send</button>
         </form>
       </div>
     </div>

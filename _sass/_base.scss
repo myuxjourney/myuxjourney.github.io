@@ -125,18 +125,6 @@ h4 {
 }
 
 // box-shadow after hovering
-img {
-  border-radius: 5%;
-  transition: box-shadow 0.2s ease;
-}
-
-img:hover {
-  box-shadow: 0px 0px 10px #ffa700;
-}
-
-.mylogo {
-  box-shadow: none;
-}
 
 .about-img:hover {
   content: url("/images/myphoto_orange.png");
