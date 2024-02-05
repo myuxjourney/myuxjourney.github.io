@@ -60,3 +60,66 @@ p {
 .post {
   text-align: center;
 }
+
+// Image hover and expanding below
+
+/* Add your desired styles here */
+
+.thumbnail {
+  cursor: pointer;
+  height: auto;
+  max-width: 100%;
+  transition: transform 0.3s ease-in-out;
+}
+
+.thumbnail:hover {
+  transform: scale(1.1);
+}
+
+.expand-checkbox {
+  display: none;
+}
+
+.expanded-container {
+  align-items: center;
+  background: rgba(0, 0, 0, 0.9);
+  display: none;
+  height: 100%;
+  justify-content: center;
+  left: 0;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.expanded-image {
+  max-height: 100%;
+  max-width: 100%;
+  transition: transform 0.3s ease-in-out;
+}
+
+.expand-checkbox:checked + .expanded-container {
+  display: flex;
+}
+
+.close-label {
+  color: #fff;
+  cursor: pointer;
+  font-size: 30px;
+  position: absolute;
+  right: 20px;
+  top: 15px;
+}
+
+.expand-label {
+  position: relative;
+}
+
+.expand-label:hover {
+  cursor: zoom-in;
+}
+
+.expand-checkbox:checked + .expanded-container .expanded-image {
+  transform: scale(1);
+}
