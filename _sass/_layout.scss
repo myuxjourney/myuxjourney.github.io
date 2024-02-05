@@ -5,6 +5,17 @@
 .content-wrap {
   align-content: center;
   margin: 0 auto;
+  max-width: 150vw;
+}
+
+.copyright {
+  font-size: x-large;
+  align-content: center;
+  display: grid;
+  grid-template-columns: max-content max-content max-content;
+  justify-content: center;
+  width: 150vw;
+  padding-top: 5px;
 }
 
 // blog page -title - hidden from showing from page

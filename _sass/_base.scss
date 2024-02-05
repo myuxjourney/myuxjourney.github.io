@@ -24,6 +24,7 @@ section {
 
 .two {
   display: grid;
+  grid-template-columns: 1fr 1fr, 1fr;
   background-color: #f3f3f3;
   color: rgb(21, 21, 21);
   font-size: calc(5px + 2vw);
@@ -35,6 +36,7 @@ section {
 .three {
   background-color: rgb(21, 21, 21);
   color: #f3f3f3;
+  margin-top: 0px;
   padding: 10%;
   font-size: calc(5px + 2vw);
   font-weight: 400;
@@ -42,10 +44,70 @@ section {
 }
 
 .fourth {
-  background-color: #f3f3f3;
-  color: rgb(21, 21, 21);
-  padding: 10%;
-  text-align: center;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(20%, 1fr));
+  justify-content: center;
+  background-color: rgb(21, 21, 21);
+  padding: 20px;
+}
+
+.image-container {
+  position: relative;
+  margin: 0 10px;
+}
+
+.image-container img {
+  width: 75%;
+  height: auto;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+/* Add a hover effect */
+.image-container img:hover {
+  transform: scale(1.1); /* Adjust the scale factor as needed */
+}
+
+/* Expanded versions of images */
+.expanded-image {
+  display: none;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  max-width: 90%;
+  max-height: 90vh;
+  z-index: 9999;
+}
+
+.expand-checkbox:checked + .expanded-image {
+  display: block;
+}
+
+.expanded-image img {
+  width: 100%;
+  height: auto;
+}
+
+.close-button {
+  display: none;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  z-index: 10000;
+  cursor: pointer;
+  color: white;
+  font-size: 24px;
+}
+
+/* Show the close button when an image is expanded */
+.expand-checkbox:checked + .expanded-image .close-button {
+  display: block;
+}
+
+/* Add a hover effect for the close button */
+.close-button:hover {
+  color: red; /* Adjust the color as needed */
 }
 
 .navigation {
@@ -140,9 +202,9 @@ h4 {
 
 .main-image {
   background-color: transparent;
-  position: static;
-  max-width: 100%;
   height: auto;
+  max-width: 100%;
+  position: static;
 }
 
 // box-shadow after hovering
