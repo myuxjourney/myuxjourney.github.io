@@ -1,3 +1,4 @@
+/* Block: footer */
 footer.site-footer {
   align-items: center;
   background-color: rgb(21, 21, 21);
@@ -9,6 +10,7 @@ footer.site-footer {
   text-align: center;
 }
 
+/* Block: media-links */
 .media-links {
   align-items: center;
   display: grid;
@@ -16,6 +18,7 @@ footer.site-footer {
   justify-content: center;
 }
 
+/* Element: link */
 a {
   text-decoration: none;
 }

@@ -1,7 +1,13 @@
+/* Header Block */
 header.site-header {
   display: grid;
   background: #ffffff;
   color: #ffffff;
   padding: 10px;
   width: 100vw;
+}
+
+/* Element Inside Header Block */
+header.site-header {
+  /* Styles specific to site-header */
 }
