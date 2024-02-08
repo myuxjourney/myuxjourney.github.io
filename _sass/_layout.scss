@@ -23,11 +23,13 @@
 
 /* Element: blog-list */
 .blog-list {
+  font-family: "Raleway" sans-serif;
+  font-size: larger;
+  line-height: 1.5em;
   list-style-type: none;
-  text-align: left;
   margin-left: 30%;
   margin-right: 30%;
-  line-height: 3em;
+  text-align: center;
 }
 
 /* Element: paragraph */
@@ -126,6 +128,14 @@ li {
   list-style-type: none;
 }
 
+li:hover {
+  list-style-type: none;
+  text-align: left;
+  color: #ffa700;
+  font-size: larger;
+  transition: font size 0.5s ease;
+}
+
 a {
   color: #ffa700;
 }
@@ -142,10 +152,9 @@ b {
   color: #ffa700;
 }
 
-.blog-list {
-  list-style-type: none;
-  text-align: left;
-  margin-left: 30%;
-  margin-right: 30%;
-  line-height: 3em;
+@media screen and (min-width: 600px) {
+  .size-small img {
+    width: auto;
+    height: 20%;
+  }
 }
