@@ -154,11 +154,11 @@ li:hover {
 li:hover::before {
   content: "";
   position: absolute;
-  left: -20px; /* Adjust this value to position the arrow */
+  left: 65%;
   top: 50%;
   transform: translateY(-50%);
   border: 10px solid transparent;
-  border-right-color: #ffa700; /* Orange color for the arrow */
+  border-right-color: #ffa700;
 }
 
 a {
