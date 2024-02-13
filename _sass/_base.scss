@@ -2,6 +2,8 @@
 body {
   background-color: rgb(21, 21, 21);
   color: #f0f0f0;
+  width: 100 dvw;
+  padding: 50 px;
 }
 
 /* Block: section */
@@ -63,10 +65,26 @@ section {
 .navigation {
   display: flex;
   font-family: "Raleway" sans-serif;
-  font-weight: 500;
-  font-size: x-large;
+  font-weight: 200;
+  font-size: small;
   justify-content: center;
   padding: 5px;
+}
+
+@media (min-width: 600px) {
+  .navigation {
+    font-family: "Raleway" sans-serif;
+    font-size: larger;
+    font-weight: 500;
+  }
+}
+
+@media (min-width: 400px) {
+  .navigation {
+    font-family: "Raleway" sans-serif;
+    font-size: larger;
+    font-weight: 500;
+  }
 }
 
 /* Block: nav-anchor */
@@ -84,10 +102,28 @@ section {
   border-color: rgb(21, 21, 21);
 }
 
+.before-hover {
+  content: url("/images/OutlineHome.png");
+  width: 45%;
+}
+
+@media (min-width: 500px) {
+  .before-hover {
+    width: 100%;
+  }
+}
+
 /* Modifier: hoverme:hover */
 .hoverme:hover {
   content: url("/images/HoverHome.png");
   box-shadow: none;
+  width: 45%;
+}
+
+@media (min-width: 500px) {
+  .hoverme:hover {
+    width: 100%;
+  }
 }
 
 /* Block: post-content */
@@ -130,24 +166,8 @@ h4 {
 /* Block: main-image-wrapper */
 .main-image-wrapper {
   background-color: transparent;
-  min-width: 100%;
   height: auto;
   box-shadow: none;
-}
-
-@media (max-width: 600px) {
-  .main-image-wrapper {
-    max-width: 20%; /* Set the maximum width to 50% when the screen width is 600px or less */
-    text-align: center;
-  }
-}
-
-/* Block: main-image */
-.main-image {
-  background-color: transparent;
-  height: auto;
-  max-width: 100%;
-  position: static;
 }
 
 /* Modifier: about-img:hover */
@@ -170,58 +190,6 @@ body:after {
 .h4-blog {
   text-align: center;
 }
-
-// .box {
-//   display: block;
-//   background-color: red;
-//   height: 300px;
-//   width: 100%;
-
-//   @media (min-width: 600px) {
-//     background-color: blue;
-//     width: 32%;
-//   }
-
-// .image-grid {
-//   display: grid;
-//   grid-template-columns: repeat(4, 1fr); /* Initially 4 columns */
-//   grid-gap: 20px;
-//   justify-content: center; /* Center items horizontally */
-// }
-
-// .image-container {
-//   width: 100%; /* Take full width initially */
-//   text-align: center;
-// }
-
-// .image {
-//   width: 100%;
-//   height: auto;
-//   transition: transform 0.3s ease; /* Add transition for smooth effect */
-// }
-
-// /* Apply hover effect */
-// .image:hover {
-//   transform: scale(1.4); /* Scale up the image by 10% on hover */
-// }
-
-// @media (max-width: 800px) {
-//   .image-grid {
-//     grid-template-columns: repeat(
-//       2,
-//       1fr
-//     ); /* Two columns when screen size is 600px or less */
-//   }
-// }
-
-// @media (max-width: 400px) {
-//   .image-grid {
-//     grid-template-columns: repeat(
-//       1,
-//       1fr
-//     ); /* Single column when screen size is 400px or less */
-//   }
-// }
 
 .image-grid {
   display: grid;
@@ -275,5 +243,19 @@ body:after {
 @media (max-width: 400px) {
   .image-grid {
     grid-template-columns: repeat(1, 1fr);
+  }
+}
+
+.main-logo {
+  max-width: 20%;
+  padding-left: 30px;
+  padding-top: 2%;
+}
+
+@media (min-width: 400px) {
+  .main-logo {
+    padding-left: 15px;
+    padding-top: 15px;
+    width: 300px;
   }
 }

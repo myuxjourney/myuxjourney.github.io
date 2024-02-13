@@ -151,9 +151,15 @@ b {
   color: #ffa700;
 }
 
-@media screen and (min-width: 600px) {
-  .size-small img {
-    width: auto;
-    height: 20%;
+.image-reduce {
+  text-align: center;
+  width: 35%;
+  height: auto;
+}
+
+@media (min-width: 500px) {
+  .image-reduce {
+    width: 55%;
+    height: auto;
   }
 }
