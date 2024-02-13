@@ -102,28 +102,10 @@ section {
   border-color: rgb(21, 21, 21);
 }
 
-.before-hover {
-  content: url("/images/OutlineHome.png");
-  width: 45%;
-}
-
-@media (min-width: 500px) {
-  .before-hover {
-    width: 100%;
-  }
-}
-
 /* Modifier: hoverme:hover */
 .hoverme:hover {
   content: url("/images/HoverHome.png");
   box-shadow: none;
-  width: 45%;
-}
-
-@media (min-width: 500px) {
-  .hoverme:hover {
-    width: 100%;
-  }
 }
 
 /* Block: post-content */
