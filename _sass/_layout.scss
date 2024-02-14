@@ -25,11 +25,13 @@
 .blog-list {
   font-family: "Raleway" sans-serif;
   font-size: larger;
-  line-height: 1.5em;
+  line-height: 2em;
   list-style-type: none;
-  margin-left: 30%;
-  margin-right: 30%;
-  text-align: center;
+  margin-left: 25%;
+  margin-right: 25%;
+  padding-top: 30px;
+  text-align: left;
+  text-decoration: none;
 }
 
 /* Element: paragraph */
@@ -140,27 +142,6 @@ li {
   position: relative;
 }
 
-li {
-  list-style-type: none;
-  position: relative;
-}
-
-li:hover {
-  color: #ffa700;
-  font-size: larger;
-  transition: font-size 0.5s ease;
-}
-
-li:hover::before {
-  content: "";
-  position: absolute;
-  left: 65%;
-  top: 50%;
-  transform: translateY(-50%);
-  border: 10px solid transparent;
-  border-right-color: #ffa700;
-}
-
 a {
   color: #ffa700;
 }
@@ -177,9 +158,13 @@ b {
   color: #ffa700;
 }
 
+.size-small {
+  width: 20%;
+  height: 20%;
+}
 @media screen and (min-width: 600px) {
   .size-small img {
     width: auto;
-    height: 20%;
+    height: 65%;
   }
 }
