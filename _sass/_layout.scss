@@ -1,6 +1,7 @@
 /* Block: main-content */
 .main-content {
   margin-top: 5%;
+  margin-bottom: 10%;
 }
 
 /* Block: content-wrap */
@@ -175,4 +176,9 @@ a:hover {
 
 .main-margin {
   margin: 0 15% 0 15%;
+  color: #f0f0f0;
+}
+
+.post-content a {
+  color: #ffa700;
 }

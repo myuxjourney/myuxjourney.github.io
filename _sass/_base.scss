@@ -15,17 +15,19 @@ section {
 
 /* Block: introduction-text */
 .introduction-text {
-  padding: 2% 10% 10% 10%;
+  padding: 1% 10% 10% 10%;
   text-align: left;
   line-height: 1.5em;
+  font-size: 1em;
+  font-weight: 400;
 }
 
-.introduction-text-two {
-  padding: 2% 10% 10% 10%;
-  text-align: left;
-  line-height: 1.5em;
-  width: 100%;
-  background-color: #f3f3f3;
+@media (min-width: 600px) {
+  .introduction-text {
+    font-family: "Raleway" sans-serif;
+    font-weight: 700;
+    font-size: 2em;
+  }
 }
 
 /* Block: one */
@@ -54,8 +56,8 @@ section {
   background-color: rgb(21, 21, 21);
   color: #f3f3f3;
   margin-top: 0px;
-  font-size: 1.5em;
-  font-weight: 400;
+  font-size: 2em;
+  font-weight: 700;
   text-align: center;
 }
 
@@ -241,4 +243,8 @@ body:after {
     padding-top: 15px;
     width: 300px;
   }
+}
+
+.three h4 {
+  font-size: 2em;
 }
