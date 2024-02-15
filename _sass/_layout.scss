@@ -133,19 +133,19 @@ li {
   position: relative;
 }
 
-a {
+.nav-anchor a {
   color: #ffa700;
 }
 
 a:hover {
+  color: #000;
+}
+
+.nav-anchor a:visited {
   color: #ffa700;
 }
 
-a:visited {
-  color: #ffa700;
-}
-
-b {
+.nav-anchor b {
   color: #ffa700;
 }
 
@@ -171,4 +171,8 @@ b {
 
 .blog-content img {
   padding-bottom: 20px;
+}
+
+.main-margin {
+  margin: 0 15% 0 15%;
 }

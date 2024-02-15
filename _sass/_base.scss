@@ -15,14 +15,24 @@ section {
 
 /* Block: introduction-text */
 .introduction-text {
-  padding: 0 10% 10% 10%;
+  padding: 2% 10% 10% 10%;
+  text-align: left;
+  line-height: 1.5em;
+}
+
+.introduction-text-two {
+  padding: 2% 10% 10% 10%;
+  text-align: left;
+  line-height: 1.5em;
+  width: 100%;
+  background-color: #f3f3f3;
 }
 
 /* Block: one */
 .one {
   background-color: rgb(21, 21, 21);
   color: #f3f3f3;
-  font-size: calc(5px + 2vw);
+  font-size: 1.5em;
   font-weight: 400;
   text-align: center;
   width: 100%;
@@ -30,14 +40,13 @@ section {
 
 /* Block: two */
 .two {
+  font-size: 1.5em;
   display: grid;
   grid-template-columns: 1fr 1fr, 1fr;
   background-color: #f3f3f3;
+
+  width: 100%;
   color: rgb(21, 21, 21);
-  font-size: calc(5px + 2vw);
-  font-weight: 400;
-  padding: 10%;
-  text-align: center;
 }
 
 /* Block: three */
@@ -45,7 +54,7 @@ section {
   background-color: rgb(21, 21, 21);
   color: #f3f3f3;
   margin-top: 0px;
-  font-size: calc(5px + 2vw);
+  font-size: 1.5em;
   font-weight: 400;
   text-align: center;
 }
@@ -56,7 +65,7 @@ section {
   color: #f3f3f3;
   margin-top: 0px;
   padding: 10%;
-  font-size: calc(5px + 2vw);
+  font-size: 1.5em;
   font-weight: 400;
   text-align: center;
 }
@@ -99,6 +108,7 @@ section {
 
 /* Modifier: nav-anchor:hover */
 .nav-anchor:hover {
+  color: #ffa700;
   border-color: rgb(21, 21, 21);
 }
 
@@ -122,14 +132,6 @@ section {
 .post-title {
   background-color: rgb(21, 21, 21);
   color: #f3f3f3;
-  text-align: left;
-}
-
-/* Block: h4 */
-h4 {
-  line-height: 1.5em;
-  margin-top: -8px;
-  padding-top: 0px;
   text-align: left;
 }
 
