@@ -42,22 +42,21 @@ section {
 
 /* Block: two */
 .two {
-  font-size: 1.5em;
-  display: grid;
-  grid-template-columns: 1fr 1fr, 1fr;
   background-color: #f3f3f3;
-
-  width: 100%;
   color: rgb(21, 21, 21);
+  display: grid;
+  font-size: 1.5em;
+  grid-template-columns: 1fr 1fr, 1fr;
+  width: 100%;
 }
 
 /* Block: three */
 .three {
   background-color: rgb(21, 21, 21);
   color: #f3f3f3;
-  margin-top: 0px;
   font-size: 2em;
   font-weight: 700;
+  margin-top: 0px;
   text-align: center;
 }
 
@@ -65,10 +64,10 @@ section {
 .fourth {
   background-color: rgb(21, 21, 21);
   color: #f3f3f3;
-  margin-top: 0px;
-  padding: 10%;
   font-size: 1.5em;
   font-weight: 400;
+  margin-top: 0px;
+  padding: 10%;
   text-align: center;
 }
 
@@ -76,8 +75,8 @@ section {
 .navigation {
   display: flex;
   font-family: "Raleway" sans-serif;
-  font-weight: 200;
   font-size: small;
+  font-weight: 200;
   justify-content: center;
   padding: 5px;
 }
