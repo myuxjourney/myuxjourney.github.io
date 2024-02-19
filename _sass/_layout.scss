@@ -153,11 +153,24 @@ a:hover {
 .size-small {
   width: 20%;
   height: 20%;
+  padding-top: 40px;
+  padding-bottom: 40px;
 }
 @media screen and (min-width: 600px) {
   .size-small img {
     width: auto;
     height: 65%;
+  }
+}
+
+.wide-img {
+  width: 40%;
+  height: 40%;
+}
+@media screen and (min-width: 600px) {
+  .wide-img img {
+    width: auto;
+    height: 75%;
   }
 }
 
