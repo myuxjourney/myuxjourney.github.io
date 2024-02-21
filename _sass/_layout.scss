@@ -200,5 +200,22 @@ a:hover {
 .blog-content-wider {
   color: #e4e4e4;
   font-weight: 600;
-  margin: 0 20% 10px 20%;
+  margin: 0 23% 10px 23%;
+}
+
+.size-medium {
+  height: auto;
+  padding-bottom: 40px;
+  padding-top: px;
+  width: 75%;
+}
+@media (min-width: 600px) {
+  .size-medium img {
+    height: 85%;
+    width: 85%;
+  }
+}
+
+.post-meta {
+  padding-top: 25px;
 }
