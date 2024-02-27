@@ -15,7 +15,7 @@
 .copyright {
   align-content: center;
   display: grid;
-  font-size: x-large;
+  font-size: 1.125em;
   grid-template-columns: max-content max-content max-content;
   justify-content: center;
   padding-top: 5px;
@@ -25,7 +25,7 @@
 /* Element: blog-list */
 .blog-list {
   font-family: "Raleway" sans-serif;
-  font-size: larger;
+  font-size: 1.5em;
   line-height: 2em;
   list-style-type: none;
   margin-left: 25%;
@@ -37,9 +37,9 @@
 
 /* Element: paragraph */
 p {
-  color: #f0f0f0;
+  color: #d5d5d5;
   font-family: Raleway;
-  font-size: large;
+  font-size: 1em;
   line-height: 1.5em;
   margin-bottom: 10px;
   text-align: left;
