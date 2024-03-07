@@ -3,8 +3,6 @@ layout: page
 permalink: /about/
 ---
 
-
-
 <div class="image-container">
   <img class="about-img slide-right-animation" /* Add the animation class */
   src="/images/myphoto.png" alt="static Image" style="margin-top: -6%; position:
@@ -27,14 +25,12 @@ permalink: /about/
 </div>
 
 
-
 <div class="introduction-text">
   <h3 class="gallery-title">Grandma's Gallery</h3>
   <p style="text-align: center">(Grandma wants to see more photos)</p>
-  </div>
 
   <div class="gallery">
-    <div class="gallery__column animate-in">
+    <div class="gallery__column animate-in" style="animation-delay: 0s">
       <a href="#" target="_blank" class="gallery__link">
         <figure class="gallery__thumb">
           <img
@@ -69,7 +65,7 @@ permalink: /about/
       </a>
     </div>
 
-    <div class="gallery__column animate-in">
+    <div class="gallery__column animate-in" style="animation-delay: 0.5s">
       <a href="#" target="_blank" class="gallery__link">
         <figure class="gallery__thumb">
           <img
@@ -104,7 +100,7 @@ permalink: /about/
       </a>
     </div>
 
-    <div class="gallery__column animate-in">
+    <div class="gallery__column animate-in" style="animation-delay: 0.8s">
       <a href="#" target="_blank" class="gallery__link">
         <figure class="gallery__thumb">
           <img
@@ -139,7 +135,7 @@ permalink: /about/
       </a>
     </div>
 
-    <div class="gallery__column animate-in">
+    <div class="gallery__column animate-in" style="animation-delay: 1s">
       <a href="#" target="_blank" class="gallery__link">
         <figure class="gallery__thumb">
           <img
@@ -173,5 +169,34 @@ permalink: /about/
         </figure>
       </a>
     </div>
+    <script>
+      // Function to check if an element is in the viewport
+      function isInViewport(element) {
+        const rect = element.getBoundingClientRect();
+        return (
+          rect.top >= 0 &&
+          rect.left >= 0 &&
+          rect.bottom <=
+            (window.innerHeight || document.documentElement.clientHeight) &&
+          rect.right <=
+            (window.innerWidth || document.documentElement.clientWidth)
+        );
+      }
+
+      // Function to handle scroll event
+      function handleScroll() {
+        const galleryTitle = document.querySelector(".gallery-title");
+        const gallery = document.querySelector(".gallery");
+        if (isInViewport(galleryTitle)) {
+          gallery.classList.add("animate-in");
+        } else {
+          gallery.classList.remove("animate-in");
+        }
+      }
+
+      // Add scroll event listener
+      document.addEventListener("scroll", handleScroll);
+    </script>
   </div>
+</div>
 </div>
